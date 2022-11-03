@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fas_profile/static/css/main.8156ea9b.css",
+    "main.js": "/fas_profile/static/js/main.2ea02b45.js",
+    "static/js/787.9077b1c8.chunk.js": "/fas_profile/static/js/787.9077b1c8.chunk.js",
+    "static/media/Fas_img.jpg": "/fas_profile/static/media/Fas_img.d69f15a6b8c9b8752d6e.jpg",
+    "static/media/zuri_img.svg": "/fas_profile/static/media/zuri_img.c1374ed8f5fcb9c35e71bb6fbf191695.svg",
+    "static/media/logo.svg": "/fas_profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fas_profile/index.html",
+    "main.8156ea9b.css.map": "/fas_profile/static/css/main.8156ea9b.css.map",
+    "main.2ea02b45.js.map": "/fas_profile/static/js/main.2ea02b45.js.map",
+    "787.9077b1c8.chunk.js.map": "/fas_profile/static/js/787.9077b1c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8156ea9b.css",
+    "static/js/main.2ea02b45.js"
+  ]
+}
