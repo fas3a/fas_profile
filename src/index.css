@@ -17,14 +17,34 @@ code {
   border-radius: 50%;
 }
 a{
-  cursor: pointer;
   width: 95%;
   padding: 10px 20px;
 }
 button{
-
+  cursor: pointer;
   padding: 10px;
   width: 100%;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+footer img{
+  width: 125px;
+  height: 70px;
+}
+hr{
+  margin-top: 30px ;
+  width: 90%;
+}
+
+@media screen and (max-width: 450px){
+
+  footer{
+  display: inline-block;
+}
 }
 
 

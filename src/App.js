@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import Fas_img from './img/Fas_img.jpg'
+import zuri_img from './img/zuri_img.svg'
+import ingress from './img/ingress.png'
 import './App.css';
 
 function App() {
@@ -60,6 +62,13 @@ function App() {
           </button>
         </a>
       </header>
+      <hr/>
+
+      <footer>
+        <img src={zuri_img} alt='logo'/>
+        <h4>HNG Internship 9 Frontend Task</h4>
+        <img src={ingress} alt='logo'/>
+      </footer>
     </div>
   );
 }
