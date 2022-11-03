@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,12 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.prof_img{
+  width: 150px;
+  border-radius: 50%;
+}
 a{
-  width: 100%;
   cursor: pointer;
+  width: 95%;
+  padding: 10px 20px;
 }
 button{
-  width: 100%;
+
   padding: 10px;
-  margin: 10px 20px;
+  width: 100%;
 }
+
+
