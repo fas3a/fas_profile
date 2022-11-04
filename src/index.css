@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,14 +17,27 @@ code {
   width: 150px;
   border-radius: 50%;
 }
+.prof_name{
+  color: black;
+  font-weight: bolder;
+}
+#slack{
+  visibility:hidden
+}
 a{
   width: 95%;
   padding: 10px 20px;
+
+}
+button.hover{
+  background-color: #3c3939;
 }
 button{
   cursor: pointer;
   padding: 10px;
   width: 100%;
+    border:1px gray solid;
+  border-radius: 5px
 }
 footer{
   display: flex;
@@ -38,6 +52,10 @@ footer img{
 hr{
   margin-top: 30px ;
   width: 90%;
+}
+.tool_logo img{
+  height: 15px;
+  padding: 5px
 }
 
 @media screen and (max-width: 450px){
