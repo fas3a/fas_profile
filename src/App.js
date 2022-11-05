@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Fas_img from './img/Fas_img.jpg'
+import prof_img from './img/prof_img.jpg'
 import zuri_img from './img/zuri_img.svg'
 import ingress from './img/ingress.png'
 import git_logo from './img/git_logo.png'
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header" style={{backgroundColor: "white"}}>
-        <img src={Fas_img} className="prof_img" alt="logo" id="profile_img"/>
+        <img src={prof_img} className="prof_img" id="profile_img" alt="logo" />
         <p className="prof_name" id="twitter">
           Akintola Oluwafemi
         </p>

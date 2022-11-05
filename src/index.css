@@ -16,6 +16,7 @@ code {
 .prof_img{
   width: 150px;
   border-radius: 50%;
+  height: 170px;
 }
 .prof_name{
   color: black;
