@@ -2,16 +2,19 @@ import logo from './logo.svg';
 import Fas_img from './img/Fas_img.jpg'
 import zuri_img from './img/zuri_img.svg'
 import ingress from './img/ingress.png'
+import git_logo from './img/git_logo.png'
+import slack_logo from './img/slack_logo.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={Fas_img} className="prof_img" alt="logo" />
-        <p>
+      <header className="App-header" style={{backgroundColor: "white"}}>
+        <img src={Fas_img} className="prof_img" alt="logo" id="profile_img"/>
+        <p className="prof_name" id="twitter">
           Akintola Oluwafemi
         </p>
+        <p id="slack">Fas3a</p>
         <a
           className="btn"
           href="https://training.zuri.team/"
@@ -24,7 +27,7 @@ function App() {
         </a>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://books.zuri.team"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -35,33 +38,41 @@ function App() {
         
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://bools.zuri.team/python-for-beginner?ref_id=fas3a"
           target="_blank"
         >
-          <button id='books'>
+          <button id='book_python'>
           Python Books
           </button>
         </a>
         
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://background.zuri.team"
           target="_blank"
         >
-          <button id='books'>
+          <button id='pitch'>
           Background Check for Coders
           </button>
         </a>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://books.zuri.team/design-rules"
           target="_blank"
         >
-          <button id='books'>
+          <button id='book_design'>
           Design Books
           </button>
         </a>
       </header>
+
+      {/*Tools logos*/}
+      
+      <div className="tool_logo">
+        <img src={slack_logo} alt="logo"/>
+        <img src={git_logo} alt="logo"/>
+      </div>
+      
       <hr/>
 
       <footer>
